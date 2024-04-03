@@ -1,0 +1,25 @@
+{
+  "name": "acm-backend",
+  "version": "1.0.0",
+  "description": "Backend for ACM Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flockflair-dbit/acm-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flockflair-dbit/acm-backend/issues"
+  },
+  "homepage": "https://github.com/flockflair-dbit/acm-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
