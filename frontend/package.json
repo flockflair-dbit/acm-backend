@@ -1,7 +1,7 @@
 {
-  "name": "tailadmin-react-free",
+  "name": "acm-dashboard",
   "private": true,
-  "version": "1.3.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +9,7 @@
     "preview": "vite preview"
   },
   "author": {
-    "name": "TailAdmin",
-    "email": "hello@tailadmin.com",
-    "url": "https://tailadmin.com"
+    "name": "ACM DBIT"
   },
   "dependencies": {
     "apexcharts": "^3.41.0",

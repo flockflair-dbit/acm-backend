@@ -37,7 +37,7 @@ function App() {
           index
           element={
             <>
-              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Dashboard | ACM DBIT" />
               <ECommerce />
             </>
           }
@@ -46,7 +46,7 @@ function App() {
           path="/calendar"
           element={
             <>
-              <PageTitle title="Calendar | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Calendar | Dashboard | ACM DBIT" />
               <Calendar />
             </>
           }
@@ -55,7 +55,7 @@ function App() {
           path="/profile"
           element={
             <>
-              <PageTitle title="Profile | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Profile | Dashboard | ACM DBIT" />
               <Profile />
             </>
           }
@@ -64,7 +64,7 @@ function App() {
           path="/forms/form-elements"
           element={
             <>
-              <PageTitle title="Form Elements | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Form Elements | Dashboard | ACM DBIT" />
               <FormElements />
             </>
           }
@@ -73,7 +73,7 @@ function App() {
           path="/forms/form-layout"
           element={
             <>
-              <PageTitle title="Form Layout | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Form Layout | Dashboard | ACM DBIT" />
               <FormLayout />
             </>
           }
@@ -82,7 +82,7 @@ function App() {
           path="/tables"
           element={
             <>
-              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Tables | Dashboard | ACM DBIT" />
               <Tables />
             </>
           }
@@ -91,7 +91,7 @@ function App() {
           path="/settings"
           element={
             <>
-              <PageTitle title="Settings | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Settings | Dashboard | ACM DBIT" />
               <Settings />
             </>
           }
@@ -100,7 +100,7 @@ function App() {
           path="/chart"
           element={
             <>
-              <PageTitle title="Basic Chart | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Basic Chart | Dashboard | ACM DBIT" />
               <Chart />
             </>
           }
@@ -109,7 +109,7 @@ function App() {
           path="/ui/alerts"
           element={
             <>
-              <PageTitle title="Alerts | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Alerts | Dashboard | ACM DBIT" />
               <Alerts />
             </>
           }
@@ -118,7 +118,7 @@ function App() {
           path="/ui/buttons"
           element={
             <>
-              <PageTitle title="Buttons | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Buttons | Dashboard | ACM DBIT" />
               <Buttons />
             </>
           }
@@ -127,7 +127,7 @@ function App() {
           path="/auth/signin"
           element={
             <>
-              <PageTitle title="Signin | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Signin | Dashboard | ACM DBIT" />
               <SignIn />
             </>
           }
@@ -136,7 +136,7 @@ function App() {
           path="/auth/signup"
           element={
             <>
-              <PageTitle title="Signup | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Signup | Dashboard | ACM DBIT" />
               <SignUp />
             </>
           }
