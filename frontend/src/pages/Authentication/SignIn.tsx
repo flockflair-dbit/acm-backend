@@ -8,7 +8,7 @@ import DefaultLayout from '../../layout/DefaultLayout';
 const SignIn: React.FC = () => {
   return (
     <DefaultLayout>
-      <Breadcrumb pageName="Sign In" />
+      <Breadcrumb pageName="" />
 
       <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
         <div className="flex flex-wrap items-center">

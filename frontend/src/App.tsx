@@ -16,6 +16,7 @@ import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
 
+
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
   const { pathname } = useLocation();
@@ -38,7 +39,8 @@ function App() {
           element={
             <>
               <PageTitle title="Dashboard | ACM DBIT" />
-              <ECommerce />
+              {/* <ECommerce /> */}
+              <SignIn/>
             </>
           }
         />
