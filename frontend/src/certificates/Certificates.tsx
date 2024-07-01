@@ -76,11 +76,7 @@ const Certificate = () => {
         <div style={{}} className='download-butn'>
         <a href={imgUrl} download="a.pdf" >
         <i className="fa-solid fa-download butn  dark:text-white"></i>
-<<<<<<< Updated upstream
           </a>       
-=======
-        </a>       
->>>>>>> Stashed changes
         </div>
         <div style={{}} className='retry-butn'>
           <a href='./certificate'>
