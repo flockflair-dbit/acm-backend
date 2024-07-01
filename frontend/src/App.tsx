@@ -15,6 +15,7 @@ import Settings from './pages/Settings';
 import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
+import Certificate from './certificates/Certificates';
 
 
 function App() {
@@ -59,6 +60,15 @@ function App() {
             <>
               <PageTitle title="Profile | Dashboard | ACM DBIT" />
               <Profile />
+            </>
+          }
+        />
+        <Route
+          path="/certificate"
+          element={
+            <>
+              <PageTitle title="Certificate | Dashboard | ACM DBIT" />
+              <Certificate />
             </>
           }
         />
