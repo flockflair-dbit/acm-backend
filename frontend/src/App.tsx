@@ -15,6 +15,8 @@ import Settings from './pages/Settings';
 import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
+import Certificate from './certificates/Certificates';
+
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -38,7 +40,8 @@ function App() {
           element={
             <>
               <PageTitle title="Dashboard | ACM DBIT" />
-              <ECommerce />
+              {/* <ECommerce /> */}
+              <SignIn/>
             </>
           }
         />
@@ -57,6 +60,15 @@ function App() {
             <>
               <PageTitle title="Profile | Dashboard | ACM DBIT" />
               <Profile />
+            </>
+          }
+        />
+        <Route
+          path="/certificate"
+          element={
+            <>
+              <PageTitle title="Certificate | Dashboard | ACM DBIT" />
+              <Certificate />
             </>
           }
         />
