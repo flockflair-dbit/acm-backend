@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "apexcharts": "^3.41.0",
+    "axios": "^1.7.2",
     "eslint-plugin-stylelint": "^0.1.1",
     "flatpickr": "^4.6.13",
     "headlessui": "^0.0.0",
