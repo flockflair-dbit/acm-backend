@@ -4,7 +4,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Loader from './common/Loader';
 import PageTitle from './components/PageTitle';
 import SignIn from './pages/Authentication/SignIn';
-import SignUp from './pages/Authentication/SignUp';
+import SignUp1 from './pages/Authentication/SignUp1';
 import Calendar from './pages/Calendar';
 import Chart from './pages/Chart';
 import ECommerce from './pages/Dashboard/ECommerce';
@@ -16,6 +16,7 @@ import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
 import Certificate from './certificates/Certificates';
+import SignUp from './pages/Authentication/SignUp';
 
 
 function App() {
@@ -145,6 +146,15 @@ function App() {
           }
         />
         <Route
+          path="/auth/signup1"
+          element={
+            <>
+              <PageTitle title="Signup | Dashboard | ACM DBIT" />
+              <SignUp1 />
+            </>
+          }
+        />
+      <Route
           path="/auth/signup"
           element={
             <>
