@@ -16,6 +16,10 @@ import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
 import Certificate from './certificates/Certificates';
+import AdminCertificates from './certificates/AdminCertificates';
+import AdminLogin from './admin/AdminLogin';
+import AdminPanel from './admin/AdminPanel';
+import RequireAdmin from './admin/RequireAdmin';
 
 
 function App() {
@@ -70,6 +74,29 @@ function App() {
               <PageTitle title="Certificate | Dashboard | ACM DBIT" />
               <Certificate />
             </>
+          }
+        />
+        <Route
+          path="/admin/login"
+          element={<AdminLogin />}
+        />
+        <Route
+          path="/admin"
+          element={
+            <RequireAdmin>
+              <AdminPanel />
+            </RequireAdmin>
+          }
+        />
+        <Route
+          path="/admin/certificates"
+          element={
+            <RequireAdmin>
+              <>
+                <PageTitle title="Manage Certificates | Admin | ACM DBIT" />
+                <AdminCertificates />
+              </>
+            </RequireAdmin>
           }
         />
         <Route

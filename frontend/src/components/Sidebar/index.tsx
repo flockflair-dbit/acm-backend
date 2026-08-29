@@ -253,17 +253,16 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               </li>
               {/* <!-- Menu Item Profile --> */}
 
-                  {/* <!-- Menu Item Certificate --> */}
+              {/* <!-- Menu Item Certificate --> */}
               <li>
                 <NavLink
                   to="/certificate"
                   className={`group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                    pathname.includes('cartificate') && 'bg-graydark dark:bg-meta-4'
+                    pathname.includes('/certificate') && 'bg-graydark dark:bg-meta-4'
                   }`}
                 >
-                  <i style={{width:'18px', height:'18px', fontSize:'20pxpx'}} className="fa-solid fa-award"></i>
-                  
-                  Certificate
+                  <i style={{ width: '18px', height: '18px', fontSize: '20px' }} className="fa-solid fa-award"></i>
+                  Certificates
                 </NavLink>
               </li>
               {/* <!-- Menu Item Certificate --> */}

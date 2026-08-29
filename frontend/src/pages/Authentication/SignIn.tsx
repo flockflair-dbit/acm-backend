@@ -275,6 +275,11 @@ const SignIn: React.FC = () => {
                       Sign Up
                     </Link>
                   </p>
+                  <p className="mt-3">
+                    <Link to="/admin/login" className="text-sm text-primary">
+                      Club admin sign in
+                    </Link>
+                  </p>
                 </div>
               </form>
             </div>

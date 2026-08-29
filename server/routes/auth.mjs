@@ -2,9 +2,21 @@ import express from "express";
 import bcrypt from "bcrypt";
 import db from "../db/conn.mjs";
 import { ObjectId } from "mongodb";
+import { issueAdminToken, passwordMatches, requireAdmin } from "../lib/adminAuth.mjs";
 
 const saltRounds = 10
 const router = express.Router();
+
+router.post("/admin", (req, res) => {
+    if (!passwordMatches(req.body?.password)) {
+        return res.status(401).json({ message: "Invalid admin password" });
+    }
+    res.json({ token: issueAdminToken(), role: "admin" });
+});
+
+router.get("/admin/me", requireAdmin, (_req, res) => {
+    res.json({ role: "admin" });
+});
 
 function validatePassword(password) {
     bcrypt

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1131" viewBox="0 0 1600 1131">
+  <rect width="1600" height="1131" fill="#fbf8f1"/>
+  <rect x="36" y="36" width="1528" height="1059" fill="none" stroke="#1b365d" stroke-width="8"/>
+  <rect x="52" y="52" width="1496" height="1027" fill="none" stroke="#c9a227" stroke-width="3"/>
+  <rect x="68" y="68" width="1464" height="995" fill="none" stroke="#1b365d" stroke-width="1.5"/>
+
+  <polygon points="68,68 168,68 68,168" fill="#c9a227"/>
+  <polygon points="1532,68 1432,68 1532,168" fill="#c9a227"/>
+  <polygon points="68,1063 168,1063 68,963" fill="#c9a227"/>
+  <polygon points="1532,1063 1432,1063 1532,963" fill="#c9a227"/>
+
+  <text x="800" y="180" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="10" fill="#c9a227">ACM DBIT</text>
+  <text x="800" y="250" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700" fill="#1b365d">CERTIFICATE</text>
+  <text x="800" y="305" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="8" fill="#1b365d">OF PARTICIPATION</text>
+
+  <line x1="620" y1="340" x2="980" y2="340" stroke="#c9a227" stroke-width="2"/>
+
+  <text x="800" y="420" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#334155">This is to certify that</text>
+
+  <line x1="380" y1="540" x2="1220" y2="540" stroke="#1b365d" stroke-width="1.5"/>
+
+  <text x="800" y="610" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#334155">has successfully participated in</text>
+  <text x="800" y="680" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#1b365d">Intro to Web Development Workshop</text>
+  <text x="800" y="735" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#334155">held on 15 March 2026</text>
+
+  <line x1="280" y1="920" x2="560" y2="920" stroke="#1b365d" stroke-width="1.5"/>
+  <text x="420" y="950" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#334155">Faculty Coordinator</text>
+
+  <line x1="1040" y1="920" x2="1320" y2="920" stroke="#1b365d" stroke-width="1.5"/>
+  <text x="1180" y="950" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#334155">ACM Chairperson</text>
+</svg>
